@@ -14,20 +14,20 @@ This repository hosts Kalvyr's downloads. Get the latest version from [Releases]
 
 **Debian or Ubuntu:**
 ```bash
-sudo apt install ./Kalvyr-1.0.0-Linux-x64.deb
+sudo apt install ./Kalvyr-1.0.1-Linux-x64.deb
 kalvyr
 ```
 
 **AppImage:** needs FUSE 2 (`libfuse2`, or `libfuse2t64` on Ubuntu 24.04 and later).
 ```bash
-chmod +x Kalvyr-1.0.0-Linux-x64.AppImage
-./Kalvyr-1.0.0-Linux-x64.AppImage
+chmod +x Kalvyr-1.0.1-Linux-x64.AppImage
+./Kalvyr-1.0.1-Linux-x64.AppImage
 ```
 
 **Archive:**
 ```bash
-tar -xzf Kalvyr-1.0.0-Linux-x64.tar.gz
-./Kalvyr-1.0.0-Linux-x64/kalvyr
+tar -xzf Kalvyr-1.0.1-Linux-x64.tar.gz
+./Kalvyr-1.0.1-Linux-x64/kalvyr
 ```
 
 On systems that restrict user namespaces (the default on Ubuntu 24.04 and later), the `.deb` sets up Kalvyr's window sandbox for you. The AppImage starts with that sandbox turned off. The archive stops with a "SUID sandbox helper" error until you run this once from its folder:
